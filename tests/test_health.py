@@ -1,0 +1,21 @@
+from fastapi.testclient import TestClient
+
+from app.main import app
+
+client = TestClient(app)
+
+
+def test_health():
+
+    response = client.get(
+        "/health"
+    )
+
+    assert response.status_code == 200
+
+    data = response.json()
+
+    assert "status" in data
+    assert "last_event_timestamp" in data
+    assert "stale_feed" in data
+    assert "total_events" in data

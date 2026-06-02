@@ -1,0 +1,61 @@
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# Git
+.git/
+.gitignore
+
+# IDE Files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Streamlit Cache
+.streamlit/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build Artifacts
+build/
+dist/
+
+# Python Cache in Subfolders
+app/__pycache__/
+pipeline/__pycache__/
+dashboard/__pycache__/
+tests/__pycache__/
+
+# Local Environment Files
+.env
+
+# Docker Cache Files
+*.tar
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage Reports
+htmlcov/
+
+# Temporary Files
+tmp/
+temp/

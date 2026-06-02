@@ -216,3 +216,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================
+# Store Intelligence Project
+# ==========================
+
+# VS Code
+.vscode/
+
+# Sample Videos
+sample_data/videos/
+
+# Temporary Debug Scripts
+test_db.py
+test_insert.py
+
+# Local Environment
+.env
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+
